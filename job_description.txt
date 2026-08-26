@@ -1,0 +1,81 @@
+Forward-Deployed Engineer
+About the Role
+Potpie is hiring a Forward-Deployed Engineer to help bring AI-native software development into complex enterprise engineering environments.
+
+This is a high-impact early role at the intersection of software engineering, AI agents, customer deployments, and product strategy. You will work directly with enterprise engineering teams to understand their codebases, workflows, infrastructure, and constraints, then design and deploy Potpie-powered solutions that solve real problems in production.
+
+This role may require you to be deployed at customer premises for hands-on implementation, technical discovery, stakeholder collaboration, and production rollout. You should be comfortable working closely with customer teams on-site, understanding their environment deeply, and solving problems in real time.
+
+You will not be a traditional solutions engineer. You will write production code, build integrations, customize agents, debug complex systems, and turn customer requirements into scalable product capabilities.
+
+About Potpie
+Potpie.ai is building the foundation layer for spec-driven development in large, complex codebases. We focus on making software systems understandable, debuggable, and operable through structured context and AI agents. This is not about keeping servers running. This is about building systems that are reliable under real-world complexity.
+
+What You Will Do
+As a Forward-Deployed Engineer at Potpie, you will:
+
+Own technical implementation for enterprise deployments, from discovery to production rollout.
+
+Work closely with customer engineering, infrastructure, security, and platform teams to understand their codebases, workflows, and AI adoption needs.
+
+Configure, customize, and deploy Potpie in customer environments, including cloud, self-hosted, and on-premise setups.
+
+Build custom agents, workflows, integrations, and tools for customer-specific engineering use cases.
+
+Integrate Potpie with systems such as GitHub, GitLab, Slack, Notion, CI/CD pipelines, ticketing systems, logs, documentation, and internal developer platforms.
+
+Debug issues across backend systems, infrastructure, agent behavior, retrieval quality, knowledge graph construction, and customer environments..
+
+Partner with product and core engineering to improve reliability, scalability, security, observability, and deployment automation.
+
+Build internal tooling, scripts, documentation, and repeatable processes that make future deployments faster and more reliable.
+
+Act as the technical bridge between Potpie’s product team and customers using Potpie in real-world engineering systems.
+
+You May Be a Strong Fit If You Have
+Proof of Work
+At Potpie, we care deeply about proof of work.
+
+That can come from strong prior engineering experience, meaningful side projects, open-source contributions, customer-facing technical work, research, infrastructure projects, or anything else that shows technical depth and the ability to build.
+
+We do not evaluate people only by years of experience. We care about what you have built, how you think, how you debug, and how well you operate in ambiguous environments.
+
+Must-Haves
+1+ years of experience
+
+Strong production engineering experience, preferably with Python.
+
+Strong backend fundamentals, including APIs, system design, data modeling, debugging, and software architecture.
+
+Experience with databases and infrastructure components such as PostgreSQL, Redis, Neo4j, queues, object storage, or similar systems.
+
+Experience with Docker, cloud infrastructure, and deployment workflows.
+
+Familiarity with AI agents, LLM applications, RAG systems, knowledge graphs, or developer tools.
+
+Ability to understand large, complex codebases and reason through system behavior.
+
+Experience integrating with third-party APIs, internal tools, or enterprise systems.
+
+Strong debugging skills across application, infrastructure, and data layers.
+
+Excellent communication skills with both technical and non-technical stakeholders.
+
+Ability to work directly with customers while still operating like a product engineer.
+
+High ownership and comfort working in fast-moving, ambiguous startup environments.
+
+Good to Have
+Experience in a role such as Forward-Deployed Engineer, Solutions Engineer, Implementation Engineer, Sales Engineer, Customer Engineer, Platform Engineer, or Developer Tools Engineer.
+
+Experience with FastAPI, Celery, Kubernetes, GCP, AWS, LangChain, LangGraph, LiteLLM, CrewAI, PydanticAI, or similar tools.
+
+Experience with enterprise deployments, VPC setups, self-hosted systems, on-prem environments, compliance-heavy environments, or regulated industries.
+
+Experience building internal developer platforms, AI developer tools, infrastructure automation, or workflow automation.
+
+Experience with observability, logging, tracing, evaluation pipelines, or agent reliability.
+
+Open-source contributions or meaningful public technical work.
+
+Ability to write clear technical documentation, customer-facing guides, and internal deployment playbooks.

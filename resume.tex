@@ -1,0 +1,169 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{fontawesome5}
+\usepackage{geometry}
+
+\geometry{top=0.4in, bottom=0.4in, left=0.45in, right=0.45in}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{0pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \small #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{\small#1} & \small #2 \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in, itemsep=1pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{1pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%---------- HEADING ----------
+\begin{center}
+    \textbf{\Huge \scshape \textcolor{MidnightBlue}{Mahesh Galande}} \\ \vspace{2pt}
+    \small \faPhone\ {9834559906} $|$ \href{mailto:maheshsg2016@gmail.com}{\textcolor{BrickRed}{\faEnvelope\ {maheshsg2016@gmail.com}}} $|$ 
+    \textcolor{BrickRed}{\faLinkedin\ \href{https://www.linkedin.com/in/mahesh-galande-235b09241/}{{LinkedIn}}} $|$ 
+    \textcolor{BrickRed}{\faCode\ \href{https://www.hackerrank.com/profile/maheshsg2016}{HackerRank}}
+\end{center}
+
+
+\vspace{-4pt}
+
+\begin{itemize}[leftmargin=0.15in, label={\textbullet}, itemsep=1pt]
+    \small
+    \item Software Engineer with \textbf{3+ years} building scalable, AI-native applications using \textbf{Python and cloud-native infrastructure}
+    \item Strong expertise building \textbf{AI agents and LLM applications} with hands-on experience across relational, graph and cache data stores
+    \item Experienced with \textbf{CI/CD}, Docker/Kubernetes, Azure deployment workflows.
+\end{itemize}
+
+%---------- SKILLS ----------
+\section{\textcolor{MidnightBlue}{Skills}}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=1pt]
+\small{
+\item \textbf{Languages:} Python, JavaScript, SQL, C\#, Java, HTML/CSS
+\item \textbf{Frameworks:} FastAPI, LangChain, LangGraph, CrewAI, PydanticAI, Celery, React, Flask, Semantic Kernel
+\item \textbf{AI/Data:} RAG Pipelines, Knowledge Graphs, Vector Databases, LiteLLM, Microsoft Foundry
+\item \textbf{Databases:} PostgreSQL, Neo4j, Redis, MySQL, Cosmos DB, MSSQL
+\item \textbf{Other:} Docker, Kubernetes, Azure, CI/CD, Git, Jira, Postman, Swagger
+}
+\end{itemize}
+
+%---------- EXPERIENCE ----------
+\section{\textcolor{MidnightBlue}{Experience}}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+      {Saxon AI}{Oct 2024 -- Present}
+      {Associate Consultant - Development Engineer, Level II}{}
+      \resumeItemListStart
+        \resumeItem{\textbf{PO to SO Automation:} Built a service that reads incoming Purchase Orders, validates and matches line items against catalog and pricing data, and computes a confidence score for each match. Orders above the threshold are raised automatically as Sales Orders.\textit{Tech Used: Python, FastAPI, Celery, PostgreSQL, Redis, Docker, Azure}}
+        \resumeItem{\textbf{SDLC Automation (core product):} Contribute to the team's flagship product, which automates parts of the software development lifecycle -- agents that draft requirement docs, scaffold code modules, and generate CI/CD scripts. Instrumented multi-agent pipelines with structured logging and tracing to monitor step-level execution, and built evaluation pipelines to track output quality and catch regressions across agent releases. \textit{Tech Used: Python, LangGraph, CrewAI, Neo4j, Kubernetes, Docker, Azure, PostgreSQL}}
+        \resumeItem{\textbf{NL2SQL Chatbot:} Built a chatbot that takes a user's question in plain English, generates the corresponding SQL query, runs it against the database, and returns the answer along with the underlying data. \textit{Tech Used: Python, FastAPI, LangChain, PostgreSQL, Redis}}
+        \resumeItem{\textbf{HRMS \& DevOps Agents:} Built agents to automate leave management, sprint tracking, and timesheet workflows, deployed as containerized services with caching for session state. \textit{Tech Used: Python, FastAPI, Redis, Docker, Kubernetes, PostgreSQL, Azure}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Saxon AI}{Oct 2023 -- Sep 2024}
+      {Associate Consultant - Jr. Development Engineer, Level I}{}
+      \resumeItemListStart
+        \resumeItem{Built a chatbot from scratch with retrieval-augmented responses that could answer from both documents and structured data. \textit{Tech Used: Python, LangChain, PostgreSQL, Neo4j}}
+        \resumeItem{Picked up vector search along the way, and built the frontend for it. \textit{Tech Used: React, HTML, CSS, JavaScript}}
+        \resumeItem{\textbf{AI Document Classification:} Built an automated system to tag large volumes of incoming documents with metadata; accuracy improved by roughly 40\% through feature engineering and extraction logic. \textit{Tech Used: Python, FastAPI, Celery, PostgreSQL}}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%---------- PROJECTS ----------
+
+
+\section{\textcolor{MidnightBlue}{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{Online Food Ordering System}{}
+    \resumeItemListStart
+    \resumeItem{Built full-stack application using FastAPI, React, and PostgreSQL}
+    \resumeItem{Implemented JWT authentication, Redis-backed session caching, and deployed using Docker on AWS}
+    \resumeItem{Features include ordering, tracking, and delivery management}
+    \resumeItemListEnd
+
+\resumeProjectHeading
+{Graphical Password System}{}
+\resumeItemListStart
+\resumeItem{Developed secure login system resistant to shoulder surfing using color wheel approach}
+\resumeItem{Technologies used: Python, PostgreSQL}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%---------- EDUCATION ----------
+\section{\textcolor{MidnightBlue}{Education}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Sunbeam Institute of Information Technology}{Pune}
+{PG-DAC (Diploma in Advanced Computing) -- 74.06\%}{2023}
+
+\resumeSubheading
+{Pune Institute of Computer Technology (PICT)}{Pune}
+{B.E. Electronics \& Telecommunication -- 8.87 CGPA}{2017 -- 2021}
+
+\resumeSubheading
+{M.S.G. College}{}
+{HSC -- 87.07\%}{2016 -- 2017}
+
+\resumeSubheading
+{K.B.H. Vidyalaya}{}
+{SSC -- 94.04\%}{2014 -- 2015}
+
+\resumeSubHeadingListEnd
+
+%---------- ADDITIONAL ----------
+\section{\textcolor{MidnightBlue}{Additional Information}}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=1pt]
+\small{
+\item \textbf{Languages:} English, Hindi, Marathi  
+\item \textbf{Hobbies:} Playing Chess  
+\item \textbf{Achievement:} Gold Medal in Hackathon (PG-DAC)  
+}
+\end{itemize}
+
+\end{document}
