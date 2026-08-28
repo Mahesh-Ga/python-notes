@@ -33,7 +33,7 @@ Know the difference between WSGI (Flask, sync) and ASGI (FastAPI, async) and why
 ## INTERMEDIATE
 
 ### 8. REST API Design in Practice
-Resource-oriented URLs, correct HTTP verbs/status codes, request/response validation via Pydantic models, pagination for large collections, versioning strategy (URL or header based), and idempotency keys for unsafe operations (e.g., "create this order" should be safely retryable). Authentication (JWT, API keys, OAuth2) and authorization (role/permission checks) belong here too — you implemented JWT auth in your Online Food Ordering project.
+Resource-oriented URLs, correct HTTP verbs/status codes, request/response validation via Pydantic models, pagination for large collections, versioning strategy (URL or header based), and idempotency keys for unsafe operations (e.g., "create this order" should be safely retryable). Authentication (JWT, API keys, OAuth2) and authorization (role/permission checks)
 
 ### 9. Databases & ORMs in Production
 SQLAlchemy/psycopg2 usage patterns, connection pooling (why you never open a raw connection per request), transactions and isolation levels, and schema migrations (Alembic) that are safe to run against a live database (additive changes first, backfill, then remove old columns — avoid locking large tables).
