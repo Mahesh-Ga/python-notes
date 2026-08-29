@@ -84,9 +84,6 @@ Index design and reading `EXPLAIN ANALYZE` output, read replicas for read-heavy 
 ### 23. Message Queues & Event-Driven Architecture
 Beyond Celery: Kafka/RabbitMQ for decoupling services, at-least-once vs exactly-once delivery semantics (exactly-once is mostly a myth — design consumers to be idempotent instead), dead-letter queues, and backpressure handling when producers outpace consumers.
 
-### 24. Security in Production
-Secrets management (never in env files committed to git), dependency vulnerability scanning, input validation at every trust boundary, least-privilege service credentials, and auth token handling (JWT expiry/refresh, avoiding storing sensitive data in tokens).
-
 ### 25. Kubernetes & Orchestration
 Deployments, Services, ConfigMaps/Secrets, liveness vs readiness probes (and why confusing them causes cascading outages), resource requests/limits, Horizontal Pod Autoscaling, and rolling updates vs blue-green vs canary deployments.
 
