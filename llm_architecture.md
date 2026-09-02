@@ -139,7 +139,7 @@ FFN(x) = activation(x · W1 + b1) · W2 + b2
 
 ---
 
-## Step 6: Residual Connections and Layer Normalization
+## Step 6: Residual Connections(Add) and Layer Normalization(NOrm)
 
 Each sub-layer (Self-Attention and Feed-Forward) in a Transformer block is wrapped with two important stabilization techniques:
 
@@ -160,7 +160,7 @@ x = x + FeedForward(LayerNorm(x))
 ## The Full Transformer Block
 
 Stacking all the pieces above gives one **Transformer Block**. A full LLM is simply **N of these blocks stacked on top of each other** (e.g., GPT-3 has 96 layers), with the output of one block feeding into the next.
-
+![alt text](images/transformers.webp)
 ```
         ┌─────────────────────────────┐
         │   Add & LayerNorm            │
@@ -179,13 +179,30 @@ Input ──┴─────────────────────�
 
 ## Encoder vs Decoder vs Encoder-Decoder Architectures
 
+### What is an Encoder?
+- **Role:** Reads and analyzes the full input sequence all at once.
+- **Mechanism:** Uses bidirectional self-attention so every word can look at every other word around it to build rich contextual meaning.
+- **Output:** Produces a high-dimensional vector representation (embeddings) of the input data.
+Example Use Case: Text classification or sentiment analysis (e.g., BERT).
+
+### What is a Decoder?
+- **Role:** Generates new tokens one at a time (autoregressively).
+- **Mechanism:** Uses masked (causal) self-attention to block future words so the model cannot "cheat" by looking ahead.
+- **Output:** Produces sequential output text, word by word.
+Example Use Case: Open-ended text generation and chat (e.g., GPT models).
+
+### What is an Encoder-Decoder?
+- **Role:** Translates or converts an entire input sequence into a completely new output sequence.
+- **Mechanism:** Combines an encoder stack to process the input and a decoder stack equipped with cross-attention (or encoder-decoder attention) to focus on the encoder's output while writing.
+Example Use Case: Machine translation (e.g., English to French) or text summarization (e.g., T5)
+
 The original Transformer paper had two halves — an **Encoder** and a **Decoder** — but modern LLMs typically use only one:
 
 | Architecture | Attention Type | Example Models | Best For |
 |---|---|---|---|
 | **Encoder-only** | Bidirectional (sees full context both directions) | BERT | Understanding tasks — classification, embeddings, search |
 | **Decoder-only** | Causal/masked (only sees previous tokens) | GPT, Claude, Llama | Text generation — chat, completion, most modern LLMs |
-| **Encoder-Decoder** | Encoder is bidirectional, Decoder is causal + attends to encoder output | T5, original Transformer, translation models | Sequence-to-sequence tasks — translation, summarization |
+| **Encoder-Decoder** | Encoder is bidirectional, Decoder is causal(output depends only on past and present input values) + attends to encoder output | T5, original Transformer, translation models | Sequence-to-sequence tasks — translation, summarization |
 
 Most of today's popular chat-based LLMs (GPT-4, Claude, Llama, Gemini) are **decoder-only** models — they simply predict the next token, one at a time, using only leftward context.
 
@@ -195,9 +212,15 @@ Most of today's popular chat-based LLMs (GPT-4, Claude, Llama, Gemini) are **dec
 
 After passing through all Transformer blocks, the final token representation is passed through:
 
-1. A final **Linear layer** that projects it back to the size of the vocabulary (e.g., 50,000+ dimensions — one score per possible token).
+1. A final **Linear layer** that projects it back to the size of the vocabulary (e.g., 50,000+ dimensions — one score(logits)per possible token).
 2. A **Softmax** function that converts these scores into a probability distribution over the entire vocabulary.
 3. A **sampling strategy** picks the next token from this distribution.
+
+Linear Layer = "Give every possible token a score(Logits)."
+Logits are already learned weights from hidden layer for each possible token.
+Given everything I've seen so far, how strongly do I prefer this token as the next token        
+Softmax = "Turn those scores into probabilities."
+Sampling = "Choose which token actually comes next."
 
 ### Sampling Strategies (Decoding Methods)
 
@@ -262,6 +285,62 @@ Instead of every token passing through one dense Feed-Forward Network, an **MoE*
 ### Scaling Laws
 
 Empirical research (e.g., the "Chinchilla" and "Kaplan" scaling laws) has shown that an LLM's performance improves **predictably and smoothly** as a power-law function of three things: **model size (parameters)**, **dataset size (tokens)**, and **compute (FLOPs)** used for training — as long as they're scaled together in roughly the right proportions. This is why frontier LLMs keep growing in both parameter count and training data volume.
+
+---
+
+## What Do "Parameters" Actually Mean? (Why Every LLM Says "X Billion Parameters")
+
+A **parameter** is just one learned number (a weight or bias) inside the model's matrices — the values that get adjusted during training via backpropagation. When a model is advertised as "7B" or "70B", that number is simply the **total count of these learned weights** added up across every matrix in the network. It is *not* a separate marketing figure — it's derived directly from the architecture's shape (layers, hidden size, vocab size, etc.).
+
+### Where the parameters actually live
+
+For a decoder-only Transformer (GPT-style), almost all parameters come from four places, repeated across every block:
+
+| Component | Weight Matrices | Approx. Parameter Count |
+|---|---|---|
+| **Token Embedding** | Vocab → hidden size lookup table | `vocab_size × d_model` |
+| **Self-Attention (per layer)** | `W_Q, W_K, W_V, W_O` projection matrices | `4 × d_model²` |
+| **Feed-Forward Network (per layer)** | `W1` (expand) and `W2` (project back), usually 4× wider | `8 × d_model²` |
+| **Layer Norms / Biases** | Small vectors | Negligible (~thousands) |
+| **Output (Unembedding) Layer** | Hidden size → vocab (often *tied* / shared with the input embedding) | `vocab_size × d_model` (often reused, adds 0 extra) |
+
+Since attention + FFN together cost roughly `12 × d_model²` per layer, a simple back-of-envelope formula for a decoder-only model is:
+
+```
+Total Parameters ≈ (vocab_size × d_model)              # embedding (+ output, if tied)
+                  + N_layers × 12 × d_model²            # attention + FFN per block
+```
+
+### Worked example
+
+Take a GPT-3-like config: `d_model = 12288`, `N_layers = 96`, `vocab_size ≈ 50,000`.
+
+```
+Per-layer params ≈ 12 × 12288²        ≈ 1.81 billion
+All layers       ≈ 96 × 1.81B         ≈ 174 billion   (dominant term)
+Embedding        ≈ 50,000 × 12,288    ≈ 0.6 billion
+                                       ─────────────
+Total                                 ≈ 175 billion   ✅ matches GPT-3's known 175B
+```
+
+**Key takeaway:** parameter count grows roughly with `N_layers × d_model²` — so doubling the hidden size (`d_model`) roughly **quadruples** the parameter count, while doubling the number of layers only **doubles** it. This is why widening a model is far more expensive, parameter-wise, than deepening it.
+
+### Why models get called "10B", "70B", etc.
+
+It's simply shorthand for the sum above, rounded — e.g. Llama 3 8B has `d_model = 4096`, 32 layers, ≈50K-ish vocab → sums to ~8 billion learned weights. Bigger numbers roughly (per scaling laws) mean more capacity to store patterns/knowledge from training data — but only if paired with enough training tokens (see **Scaling Laws** above); a huge parameter count trained on too little data underperforms a smaller, well-trained model.
+
+### Rough scale reference
+
+| Model | Approx. Parameters | Notes |
+|---|---|---|
+| GPT-2 (large) | 1.5B | Early open decoder-only LLM |
+| Llama 3 8B | 8B | Popular small open-weight model |
+| Llama 3 70B | 70B | Larger open-weight model |
+| GPT-3 | 175B | Dense (all params used per token) |
+| Mixtral 8x7B (MoE) | 46.7B total, ~12.9B active per token | Only a few "experts" activate per token (see **Mixture of Experts** above) |
+| GPT-4 / Claude / Gemini frontier models | Undisclosed (widely estimated in the hundreds of billions to ~1T+, likely MoE) | Exact counts not publicly confirmed by vendors |
+
+*Note on MoE models:* for a Mixture-of-Experts model, "10B parameters" can be misleading — the **total** parameter count (all experts combined, what's stored on disk/in memory) can be much larger than the **active** parameter count (what's actually used to compute a single token), since only a few experts are routed to per token.
 
 ---
 
