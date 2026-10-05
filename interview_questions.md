@@ -45,7 +45,3 @@ Safety :
 
 The pattern worth noticing:
 Almost every agent question is really asking one thing: can this system be trusted to act on its own, and what stops it when something goes wrong.
-
-Which of these have you actually been asked? Comment below.
-
-Save and repost this before your next agent-focused interview.

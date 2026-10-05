@@ -80,7 +80,7 @@
 \small{
 \item \textbf{Languages:} Python, JavaScript, SQL, C\#, Java, HTML/CSS
 \item \textbf{Frameworks:} FastAPI, LangChain, LangGraph, CrewAI, PydanticAI, Celery, React, Flask, Semantic Kernel
-\item \textbf{AI/Data:} RAG Pipelines, Knowledge Graphs, Vector Databases, LiteLLM, Microsoft Foundry
+\item \textbf{AI/Data:} RAG Pipelines, Knowledge Graphs, Vector Databases, Model Context Protocol (MCP), LiteLLM, Microsoft Foundry
 \item \textbf{Databases:} PostgreSQL, Neo4j, Redis, MySQL, Cosmos DB, MSSQL
 \item \textbf{Other:} Docker, Kubernetes, Azure, CI/CD, Git, Jira, Postman, Swagger
 }
@@ -97,11 +97,11 @@
         \resumeItem{\textbf{PO to SO Automation:} Built a service that reads incoming Purchase Orders, validates and matches line items against catalog and pricing data, and computes a confidence score for each match. Orders above the threshold are raised automatically as Sales Orders.\textit{Tech Used: Python, FastAPI, Celery, PostgreSQL, Redis, Docker, Azure}}
         \resumeItem{\textbf{SDLC Automation (core product):} Contribute to the team's flagship product, which automates parts of the software development lifecycle -- agents that draft requirement docs, scaffold code modules, and generate CI/CD scripts. Instrumented multi-agent pipelines with structured logging and tracing to monitor step-level execution, and built evaluation pipelines to track output quality and catch regressions across agent releases. \textit{Tech Used: Python, LangGraph, CrewAI, Neo4j, Kubernetes, Docker, Azure, PostgreSQL}}
         \resumeItem{\textbf{NL2SQL Chatbot:} Built a chatbot that takes a user's question in plain English, generates the corresponding SQL query, runs it against the database, and returns the answer along with the underlying data. \textit{Tech Used: Python, FastAPI, LangChain, PostgreSQL, Redis}}
-        \resumeItem{\textbf{HRMS \& DevOps Agents:} Built agents to automate leave management, sprint tracking, and timesheet workflows, deployed as containerized services with caching for session state. \textit{Tech Used: Python, FastAPI, Redis, Docker, Kubernetes, PostgreSQL, Azure}}
+        \resumeItem{\textbf{HRMS \& DevOps Agents:} Built agents to automate leave management, sprint tracking, and timesheet workflows, deployed as containerized services with caching for session state. Exposed the underlying HR and Jira operations as MCP servers so any agent could call them as tools, with OAuth-based authorization so each call runs with the requesting user's permissions. \textit{Tech Used: Python, FastAPI, MCP, Redis, Docker, Kubernetes, PostgreSQL, Azure}}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Saxon AI}{Oct 2023 -- Sep 2024}
+      {Saxon AI}{Sept 2023 -- Sep 2024}
       {Associate Consultant - Jr. Development Engineer, Level I}{}
       \resumeItemListStart
         \resumeItem{Built a chatbot from scratch with retrieval-augmented responses that could answer from both documents and structured data. \textit{Tech Used: Python, LangChain, PostgreSQL, Neo4j}}
