@@ -1,0 +1,54 @@
+Position Summary: 
+
+We're building the next generation of enterprise AI infrastructure and need an engineer who can design, scale, and optimize retrieval systems and agent connectivity layers for enterprise AI solutions. As an AI Retrieval & Agent Platform Engineer, you will be responsible for enabling high-quality context retrieval, agent orchestration, and tool integration that power intelligent decision-making across the organization.
+
+You will work closely with AI, data, platform, and graph engineering teams to build production-grade RAG architectures, vector search platforms, agent frameworks, and cloud-native services. The role requires strong expertise in retrieval engineering, modern GenAI architecture, cloud deployment, observability, and scalable backend development.
+How You’ll Make an Impact (responsibilities of role)
+
+Strategic 
+
+•	Define and evolve the enterprise retrieval and agent-platform architecture to support scalable AI use cases.
+•	Drive adoption of hybrid retrieval approaches combining vector search, graph intelligence, metadata filtering, and re-ranking techniques.
+•	Partner with AI and data teams to establish best practices for embeddings, contextualization, observability, and retrieval quality measurement.
+•	Influence platform standards for security, performance, cost optimization, and cloud-native deployment patterns.
+•	Enable reusable tool ecosystems through MCP-based integrations, capability discovery, and agent orchestration frameworks.
+Operational 
+
+•	Build and operate RAG pipelines that integrate structured and unstructured enterprise knowledge sources.
+•	Design, deploy, and optimize vector databases including Pinecone, Weaviate, Qdrant, or cloud-native alternatives.
+•	Implement chunking, metadata enrichment, embedding management, retrieval guardrails, and re-ranking strategies.
+•	Develop MCP-based tools and connectors for enterprise systems including Snowflake, MongoDB, SharePoint, ERP platforms, and other business applications.
+•	Integrate graph-derived context and semantic relationships into multi-hop agent workflows.
+•	Instrument tracing, monitoring, and KPI measurement across retrieval, orchestration, and agent execution layers.
+•	Deploy and scale services on AWS using infrastructure-as-code, containerization, and CI/CD pipelines.
+•	Optimize performance, latency, scalability, reliability, and operational cost across retrieval and agent platforms.
+
+What You Bring (required qualification and skill sets)
+
+•	Bachelor's or master’s degree in computer science, Data Science, Engineering, or a related discipline.
+•	3 to 10 years of experience in retrieval systems, vector databases, search platforms, GenAI engineering, or agent-platform development.
+•	Hands-on production experience with at least one vector database such as Pinecone, Weaviate, Qdrant, Milvus, or equivalent technologies.
+•	Strong experience designing and deploying RAG solutions and contextual retrieval architectures for LLM applications.
+•	Expert Python development skills including FastAPI, API design, testing, packaging, and backend engineering best practices.
+•	Experience with GitLab CI/CD, Docker, Kubernetes, and automated deployment pipelines.
+•	Working knowledge of Neo4j, AWS Neptune, or graph-based technologies and graph query languages such as Cypher, Gremlin, or SPARQL.
+•	Experience with AWS services including Bedrock, AgentCore, IAM, Lambda, S3, DynamoDB, VPC, ECS, and EKS.
+•	Strong understanding of observability, performance tuning, distributed systems, and cloud-native architectures.
+•	Excellent communication and stakeholder-management skills with experience working across global teams.
+Preferred Qualifications
+•	Experience with MCP or similar agent-tool interoperability frameworks and capability registries.
+•	Hands-on experience with LangGraph, LangChain, LlamaIndex, Semantic Kernel, CrewAI, AutoGen, or comparable orchestration frameworks.
+•	Experience delivering enterprise-scale AI, ML, data science, or GenAI solutions in production environments.
+•	Knowledge of OpenTelemetry, Prometheus, Grafana, distributed tracing, and KPI-driven optimization.
+•	Exposure to Kafka, Kinesis, event-driven architectures, and real-time ingestion pipelines.
+•	Experience with Azure OpenAI, Microsoft Fabric, Prompt Flow, Copilot Studio, or enterprise collaboration integrations.
+•	Understanding of AI architecture, model optimization, security controls, governance, and responsible AI practices.
+
+Tech Stack
+•	Programming & APIs: Python, FastAPI, Flask, REST APIs, testing and packaging frameworks.
+•	GenAI & Agent Frameworks: LangGraph, LangChain, LlamaIndex, Semantic Kernel, CrewAI, AutoGen, Strands, AWS AgentCore.
+•	Retrieval & Search: Pinecone, Weaviate, Qdrant, FAISS, Milvus, embeddings, ANN indexing, hybrid search, reranking.
+•	Graph Technologies: Neo4j, AWS Neptune, Cypher, Gremlin, SPARQL.
+•	Cloud & Data Platforms: AWS, Snowflake, MongoDB, SQL platforms, SharePoint integrations.
+•	MLOps & Platform Engineering: Docker, Kubernetes, GitLab CI/CD, Infrastructure as Code, monitoring and observability.
+•	Observability: OpenTelemetry, Prometheus, Grafana, distributed tracing, KPI dashboards.

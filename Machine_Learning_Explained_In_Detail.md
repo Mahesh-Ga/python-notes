@@ -863,17 +863,36 @@ PC1 is the direction of greatest variance, PC2 is the next greatest direction pe
 
 ### 8.1 Regression Metrics
 
+- Variance measures how spread out the y values are. It's the average squared distance of each y from the mean of y.
+
 Using the earlier example: y = [3, 5, 7] and ŷ = [2, 5, 10].
 
-- **MAE** = average of |errors| = (1 + 0 + 3)/3 = 1.33. Easy to interpret, in the same units as y.
-- **MSE** = (1 + 0 + 9)/3 = 3.33. Punishes big errors. MSE squares the errors, so its units are squared too.
-- **RMSE** = √MSE = 1.83. Same units as y, and punishes big errors. RMSE takes the square root, which brings the number back to the same units as y.
+- **MAE**(Mean Absolute Error) = average of |errors| = (1 + 0 + 3)/3 = 1.33. Easy to interpret, in the same units as y.
+- **MSE**(Mean Squared Error) = (1 + 0 + 9)/3 = 3.33. Punishes big errors. MSE squares the errors, so its units are squared too.
+- **RMSE**(Root Mean Squared Error) = √MSE = 1.83. Same units as y, and punishes big errors. RMSE takes the square root, which brings the number back to the same units as y.
 When to use which:
-   - MSE is usually the loss function during training. It is smooth and easy to differentiate for gradient descent.
+   - MSE is usually the loss function during training. It is smooth and easy to differentiate(d/d0) for gradient descent.
    - RMSE is usually the metric you report, because it is in the same units as the target and easy to interpret.
 - **R² (coefficient of determination)** = `1 − SS_res / SS_tot`
-  - SS_res = Σ(y − ŷ)² and SS_tot = Σ(y − ȳ)².
+  - SS_tot = Σ(yᵢ − ȳ)². This is how far the data is from just predicting the mean every time.
+  - SS_res = Σ(yᵢ − ŷᵢ)². This is how far the data is from your model's predictions.
+  - So R² compares your model to the dumbest baseline, "always predict the mean."
+  - Total variation is the spread of y around its own mean: SS_tot = Σ(yᵢ − ȳ)².
+  - Unexplained variation is what's left after the model's predictions: SS_res = Σ(yᵢ − ŷᵢ)².
   - It tells what fraction of the variance in y the model explains. 1 is perfect, 0 means no better than predicting the mean, and it can be negative for a bad model.
+  - R² = 0.8 = my model cuts that wrongness by 80%
+
+┌─────┬──────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ R²  │                                               Meaning                                                │
+├─────┼──────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ 1.0 │ The model explains all the variance, with perfect predictions.                                       │
+├─────┼──────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ 0.8 │ The model explains 80% of the variance in y. The other 20% is unexplained (noise, missing features). │
+├─────┼──────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ 0   │ The model is no better than predicting the mean.                                                     │
+├─────┼──────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ < 0 │ The model is worse than predicting the mean. This is possible on test data.                          │
+└─────┴─────────────────────────────────────────────────────────────────────────┘
   - **Adjusted R²** penalizes adding useless features, because plain R² never decreases when you add features.
 
 ### 8.2 Classification Metrics
