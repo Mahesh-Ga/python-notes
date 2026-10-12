@@ -116,6 +116,11 @@ for r in results:
     seen[key] = 1
     final.append(r)
 
-json.dump(final, open(HERE + "/questions.json", "w"), indent=1)
+# keep LinkedIn / AmbitionBox rows added by experience_scrape.py extract
+try:
+    final += [r for r in json.load(open(HERE + "/questions.json", encoding="utf-8")) if r.get("experience")]
+except (FileNotFoundError, ValueError):
+    pass
+json.dump(final, open(HERE + "/questions.json", "w", encoding="utf-8"), indent=1)
 json.dump(stats, open(HERE + "/stats.json", "w"), indent=1)
 print("TOTAL raw", len(results), "dedup", len(final))

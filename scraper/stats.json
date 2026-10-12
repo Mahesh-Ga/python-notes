@@ -96,8 +96,8 @@
  ],
  [
   "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "ok",
-  168
+  "HTTPSConnectionPool(host='taggd.in', port=443): Read timed o",
+  0
  ],
  [
   "https://www.tryexponent.com/blog/top-machine-learning-interview-questions",
@@ -167,7 +167,7 @@
  [
   "https://www.igmguru.com/blog/agentic-ai-interview-questions",
   "ok",
-  70
+  69
  ],
  [
   "https://www.hirist.tech/blog/top-35-agentic-ai-interview-questions-and-answers/",
@@ -197,7 +197,7 @@
  [
   "https://aiengineeringinsider.substack.com/p/cracking-the-forward-deployed-ai",
   "ok",
-  14
+  15
  ],
  [
   "https://www.tryexponent.com/guides/openai-forward-deployed-engineer-interview",
@@ -248,5 +248,40 @@
   "https://dataford.io/interview-guides/citi/agentic-ai-engineer",
   "http 429",
   0
+ ],
+ [
+  "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "ok",
+  54
+ ],
+ [
+  "https://www.krishnaik.in/ai-tutorials/agentic-ai-interview-questions",
+  "ok",
+  2
+ ],
+ [
+  "https://www.krishnaik.in/ai-tutorials/ai-system-design-interview-questions",
+  "ok",
+  3
+ ],
+ [
+  "https://www.krishnaik.in/ai-tutorials/evals-guardrails-interview-questions",
+  "ok",
+  2
+ ],
+ [
+  "https://www.krishnaik.in/ai-tutorials/llmops-interview-questions",
+  "ok",
+  2
+ ],
+ [
+  "https://www.krishnaik.in/ai-tutorials/rag-interview-questions",
+  "ok",
+  3
+ ],
+ [
+  "https://www.krishnaik.in/ai-tutorials/llm-fundamentals-interview-questions",
+  "ok",
+  4
  ]
 ]

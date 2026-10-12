@@ -1,0 +1,36 @@
+Log in to Glassdoor / AmbitionBox in the opened window and solve any captcha (waiting up to 150s; create scraper/.go to continue sooner)
+Traceback (most recent call last):
+  File "C:\Users\MaheshGalande\Downloads\test\python-notes\scraper\experience_scrape.py", line 233, in <module>
+    {"discover": discover, "fetch": fetch, "extract": extract}.get(sys.argv[1] if len(sys.argv) > 1 else "", lambda: sys.exit(__doc__))()
+  File "C:\Users\MaheshGalande\Downloads\test\python-notes\scraper\experience_scrape.py", line 120, in discover
+    browser.get(page_url(seed, n))
+  File "C:\Users\MaheshGalande\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 526, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\MaheshGalande\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 506, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\MaheshGalande\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=155.0.8059.39); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6d85a01c5+5825]
+	chromedriver!(No symbol) [0x7ff6d84b7990]
+	chromedriver!(No symbol) [0x7ff6d82c448d]
+	chromedriver!(No symbol) [0x7ff6d82b0222]
+	chromedriver!(No symbol) [0x7ff6d82d5b66]
+	chromedriver!(No symbol) [0x7ff6d8350e30]
+	chromedriver!(No symbol) [0x7ff6d8374e8d]
+	chromedriver!(No symbol) [0x7ff6d8311892]
+	chromedriver!(No symbol) [0x7ff6d83126a3]
+	chromedriver!GetHandleVerifier [0x7ff6d89aab51+4101b1]
+	chromedriver!GetHandleVerifier [0x7ff6d89d3aeb+43914b]
+	chromedriver!GetHandleVerifier [0x7ff6d89c7fbe+42d61e]
+	chromedriver!GetHandleVerifier [0x7ff6d86a260e+107c6e]
+	chromedriver!(No symbol) [0x7ff6d84c5085]
+	chromedriver!(No symbol) [0x7ff6d84c03f4]
+	chromedriver!(No symbol) [0x7ff6d84c0584]
+	chromedriver!(No symbol) [0x7ff6d84aab1c]
+	KERNEL32!BaseThreadInitThunk [0x7ffab268cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffab356caec+2c]
+

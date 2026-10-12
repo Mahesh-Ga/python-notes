@@ -24,9 +24,6 @@ def clean(q):
 
 
 def role_for(q, seed_role):
-    if seed_role == "fde" or FDE.search(q):
-        if seed_role == "fde" or (FDE.search(q) and not GENAI.search(q) and not AGENT.search(q)):
-            return "fde"
     if AGENT.search(q):
         return "agentic"
     if GENAI.search(q):
@@ -53,10 +50,12 @@ for x in qs:
     if k in seen:
         continue
     seen.add(k)
+    if x["role"] == "fde":
+        continue
     rows[role_for(q, x["role"])].append((q, x["url"], x["title"]))
 
 names = {
-    "aiml": "AI / ML Engineer",
+    "aiml": "AI Engineer",
     "fde": "Forward Deployed Engineer (FDE)",
     "agentic": "Agentic AI Engineer",
     "genai": "Generative AI Engineer",
@@ -69,20 +68,20 @@ for r in rows:
 lines = [
     "# Interview Questions From Scraping",
     "",
-    f"Scraped on {datetime.date.today().isoformat()} from public web pages (prep blogs, GitHub READMEs, guides). "
+    f"Scraped on {datetime.date.today().isoformat()} from public web pages (prep blogs, GitHub READMEs, guides), AmbitionBox and LinkedIn posts. "
     "Each question is extracted as written on the page, with the page it came from. "
-    "These are third-party prep sources, not verified real interviews. "
+    "Prep-blog and GitHub sources are not verified real interviews; AmbitionBox and LinkedIn rows are candidate-reported experiences. "
     "Pages that block bots (robots.txt / 403 / 429) and sites like Reddit were not scraped. "
     "Role grouping is a keyword guess, so some questions can sit in a neighbouring role.",
     "",
     "| Role | Questions |",
     "|---|---|",
 ]
-for k in ("aiml", "genai", "agentic", "fde"):
+for k in ("aiml", "genai", "agentic"):
     lines.append(f"| {names[k]} | {len(rows[k])} |")
 lines.append(f"| **Total** | **{sum(len(v) for v in rows.values())}** |")
 lines.append("")
-for k in ("aiml", "genai", "agentic", "fde"):
+for k in ("aiml", "genai", "agentic"):
     lines += [f"## {names[k]} ({len(rows[k])})", ""]
     for i, (q, u, t) in enumerate(rows[k], 1):
         host = urlparse(u).netloc.replace("www.", "")

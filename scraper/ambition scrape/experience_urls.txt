@@ -1,0 +1,7 @@
+# One URL per line: the first page of an interview-questions list (fetch follows ?page=N).
+https://www.ambitionbox.com/profiles/ai-engineer/interview-questions
+https://www.ambitionbox.com/profiles/gen-ai-developer/interview-questions
+https://www.ambitionbox.com/profiles/gen-ai-engineer/interview-questions
+https://www.ambitionbox.com/profiles/agentic-ai-engineer/interview-questions
+https://www.ambitionbox.com/profiles/agentic-ai-developer/interview-questions
+https://www.ambitionbox.com/profiles/fde/interview-questions

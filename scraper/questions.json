@@ -2850,486 +2850,6 @@
   "title": "AI engineer interview questions and answers (2026 guide)"
  },
  {
-  "q": "What is machine learning?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Can the candidate explain it simply and concretely? Do they understand the core idea of generalisation from data?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate:",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Does the candidate understand why one is used over the other? Can they cite real use cases?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is overfitting?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Depth of understanding- can they diagnose it, not just define it? Do they know remedies?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is underfitting?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is the train-validation-test split and why does it matter?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Do they understand data leakage risks? Have they ever made this mistake?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "Explain the bias-variance tradeoff.",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Can they explain what actually changes model behaviour in practice, not just recite the tradeoff?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is a neural network?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What are activation functions and why are they important?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Do they know which activation function to use where and why?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is gradient descent?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Can they explain why Adam is preferred over vanilla SGD in most deep learning scenarios?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is cross-entropy loss?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Can they map metrics to business context, not just recite definitions?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "How would you build a simple prediction model from scratch?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Does the candidate think end-to-end? Do they start with baselines?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "How do you handle imbalanced datasets?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Have they handled this in practice, or are they just listing techniques?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "How do you approach feature selection and feature engineering?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Do they default to model complexity, or do they invest in the data first?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "Explain the bias-variance tradeoff in real-world production systems.",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Can they reason about model choice in the context of real constraints- compliance, latency, retraining cost?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is regularisation and when do you use L1 vs L2?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "How would you design a recommendation system at scale?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Do they think about the full system- not just the model? Do they consider latency, scale, and business constraints?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "How would you deploy an ML model at scale?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "Design a real-time fraud detection system.",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Do they understand that a simpler, faster model often beats a complex one when latency is a hard constraint?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "Your model accuracy dropped significantly after deployment. What will you do?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "When did the drop occur? Gradually or suddenly?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "Which segments are most affected? (geography, user type, device)",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "Did any upstream data pipeline change around the same time?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "Is there a schema change in incoming data? (a new field, a renamed column)",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "Has a data source gone stale or missing?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "Was a dependency updated (library version, preprocessing logic)?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "Is there a logging error causing metrics to look worse than they are?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Systematic thinking under pressure. Do they start with data or jump straight to retraining?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "You are asked to reduce model inference latency by 10x. How do you approach it?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "Want a more in-depth guide?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What are large language models (LLMs)?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Do they understand the underlying architecture, or just know the product names?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "Explain the transformer architecture.",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is prompt engineering?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Do they treat prompting as an engineering discipline with testing and iteration or as a creative guessing game?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is fine-tuning vs RAG (Retrieval-Augmented Generation)?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "How does RAG work technically?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What are hallucinations in LLMs and how do you mitigate them?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is RLHF (Reinforcement Learning from Human Feedback)?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is the context window and why does it matter?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Do they understand the practical limitations of long-context models, not just their headline capabilities?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is an AI agent?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Do they understand the architectural distinction between a prompt-response system and an agentic system?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "Explain ReAct (Reasoning + Acting) in AI agents.",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "How do multi-agent systems work?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Have they worked with real agentic frameworks? Do they understand the failure modes of distributed agent systems?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What are the key challenges of building production AI agents?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "How do you monitor LLM performance in production?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What tools are used in MLOps pipelines?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is vLLM and why is it important for LLM serving?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is quantisation in the context of LLMs?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is LoRA (Low-Rank Adaptation) and when should you use it?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is a vector database and how does it differ from a traditional database?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What recruiters and hiring managers evaluate: Can they architect the full RAG data pipeline? Do they know the tradeoffs between hosted vector DBs and self-managed ones?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "How Candidates Should Answer AI Interview Questions",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "Explain Trade-offs Clearly",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "How Recruiters and hiring managers Should Evaluate AI Engineers",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What are the most common AI engineer interview questions?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is asked in GenAI job interviews?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What skills are required for MLOps roles?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "How long does an AI engineer interview process typically take?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What is the difference between an AI engineer and a data scientist?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What coding languages do AI engineers need to know?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "How do I answer AI interview questions if I don\u2019t have industry experience?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What are the most important evaluation metrics for AI engineers to know?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "What system design topics are covered in senior AI engineer interviews?",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
-  "q": "Build the team that builds your success",
-  "role": "aiml",
-  "url": "https://taggd.in/blogs/ai-engineer-interview-questions/",
-  "title": "100 AI Engineer Interview Questions with PDF (2026): For Candidates, Recruiters, & Hiring Managers"
- },
- {
   "q": "Explain gradient descent. (OpenAI)",
   "role": "aiml",
   "url": "https://www.tryexponent.com/blog/top-machine-learning-interview-questions",
@@ -3343,6 +2863,12 @@
  },
  {
   "q": "What is overfitting, and how do you avoid it? (Pinterest)",
+  "role": "aiml",
+  "url": "https://www.tryexponent.com/blog/top-machine-learning-interview-questions",
+  "title": "Machine Learning Interview Questions & Answers (2026) - Aced (formerly Exponent)"
+ },
+ {
+  "q": "Explain the bias-variance tradeoff.",
   "role": "aiml",
   "url": "https://www.tryexponent.com/blog/top-machine-learning-interview-questions",
   "title": "Machine Learning Interview Questions & Answers (2026) - Aced (formerly Exponent)"
@@ -3475,6 +3001,12 @@
  },
  {
   "q": "How does batch normalization work? What are its benefits?",
+  "role": "aiml",
+  "url": "https://www.tryexponent.com/blog/top-machine-learning-interview-questions",
+  "title": "Machine Learning Interview Questions & Answers (2026) - Aced (formerly Exponent)"
+ },
+ {
+  "q": "How do you handle an imbalanced dataset?",
   "role": "aiml",
   "url": "https://www.tryexponent.com/blog/top-machine-learning-interview-questions",
   "title": "Machine Learning Interview Questions & Answers (2026) - Aced (formerly Exponent)"
@@ -5058,12 +4590,6 @@
   "title": "Top 100 Machine Learning Interview Questions 2025 - Vskills Blog"
  },
  {
-  "q": "What is a confusion matrix?",
-  "role": "aiml",
-  "url": "https://vskills.in/certification/blog/top-100-machine-learning-interview-questions-2025",
-  "title": "Top 100 Machine Learning Interview Questions 2025 - Vskills Blog"
- },
- {
   "q": "What is accuracy in machine learning?",
   "role": "aiml",
   "url": "https://vskills.in/certification/blog/top-100-machine-learning-interview-questions-2025",
@@ -5083,6 +4609,12 @@
  },
  {
   "q": "What\u2019s the purpose of a cost function?",
+  "role": "aiml",
+  "url": "https://vskills.in/certification/blog/top-100-machine-learning-interview-questions-2025",
+  "title": "Top 100 Machine Learning Interview Questions 2025 - Vskills Blog"
+ },
+ {
+  "q": "What is gradient descent?",
   "role": "aiml",
   "url": "https://vskills.in/certification/blog/top-100-machine-learning-interview-questions-2025",
   "title": "Top 100 Machine Learning Interview Questions 2025 - Vskills Blog"
@@ -5137,6 +4669,12 @@
  },
  {
   "q": "What is an activation function in neural networks?",
+  "role": "aiml",
+  "url": "https://vskills.in/certification/blog/top-100-machine-learning-interview-questions-2025",
+  "title": "Top 100 Machine Learning Interview Questions 2025 - Vskills Blog"
+ },
+ {
+  "q": "What is cross-entropy loss?",
   "role": "aiml",
   "url": "https://vskills.in/certification/blog/top-100-machine-learning-interview-questions-2025",
   "title": "Top 100 Machine Learning Interview Questions 2025 - Vskills Blog"
@@ -7050,19 +6588,13 @@
   "title": "\u25b7 Top 60 Agentic AI Interview Questions and Answers"
  },
  {
-  "q": "What is JDBC (Java Database Connectivity) October 10th, 2026",
+  "q": "What are Operators in Java? October 12th, 2026",
   "role": "agentic",
   "url": "https://www.igmguru.com/blog/agentic-ai-interview-questions",
   "title": "\u25b7 Top 60 Agentic AI Interview Questions and Answers"
  },
  {
-  "q": "How To Get A Workday HCM Certification? October 9th, 2026",
-  "role": "agentic",
-  "url": "https://www.igmguru.com/blog/agentic-ai-interview-questions",
-  "title": "\u25b7 Top 60 Agentic AI Interview Questions and Answers"
- },
- {
-  "q": "How To Get A Workday HCM Certification?",
+  "q": "What are Operators in Java?",
   "role": "agentic",
   "url": "https://www.igmguru.com/blog/agentic-ai-interview-questions",
   "title": "\u25b7 Top 60 Agentic AI Interview Questions and Answers"
@@ -9342,6 +8874,12 @@
   "title": "Cracking the Forward Deployed AI Engineer Interview"
  },
  {
+  "q": "Dear AI Engineering Insider Team \u2013 Could you please advise on the download process, as I don't see a coupon for my yearly subscription?",
+  "role": "fde",
+  "url": "https://aiengineeringinsider.substack.com/p/cracking-the-forward-deployed-ai",
+  "title": "Cracking the Forward Deployed AI Engineer Interview"
+ },
+ {
   "q": "The decomposition round seems like the real differentiator. Building is one thing, but figuring out the right problem to solve is a different skill. How much of that can actually be taught versus learned on the job?",
   "role": "fde",
   "url": "https://aiengineeringinsider.substack.com/p/cracking-the-forward-deployed-ai",
@@ -9778,5 +9316,395 @@
   "role": "fde",
   "url": "https://igotanoffer.com/en/advice/openai-forward-deployed-engineer-interview",
   "title": "OpenAI Forward Deployed Engineer Interview (questions, process, prep) - IGotAnOffer"
+ },
+ {
+  "q": "What Is an AI Engineer in 2026",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Explain attention in one paragraph",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "What is the KV cache and why does it matter?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "What does temperature do, and when would you set it to 0?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How does tokenization affect cost and behavior?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "What is a context window, and what happens when you exceed it?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Why do LLMs hallucinate, and how do you mitigate it?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "What is an embedding, and how do you pick a model?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "What is quantization, and what tradeoff does it make?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "What is mixture of experts, and why does it matter for cost?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How would you chunk a 200-page PDF for retrieval?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "BM25 versus dense retrieval. When does each win?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "What is hybrid search, and how do you combine the scores?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Why do you need a reranker, and what does it cost?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How do you evaluate a RAG system?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Top three failure modes of a RAG pipeline?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "What is query rewriting, and when do you use it?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How do you handle citations and avoid the model fabricating sources?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "What is multi-vector retrieval (ColBERT style)?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Your RAG works on 1K docs. How do you scale to 10M?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Explain ReAct in one paragraph",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Planner-executor versus single-loop agent. When do you pick which?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How do you design a function schema for tool calling?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How do you give an agent memory?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How do you coordinate multiple agents?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Your agent fails 20% of the time. How do you debug?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How do you prevent an agent from running forever?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How do you sandbox tool execution?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How do you evaluate an agent end to end?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "What is structured output enforcement, and why does it matter for agents?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Few-shot versus chain-of-thought. When do you use each?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Why might few-shot examples hurt performance?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "What is an LLM-as-judge, and what are its failure modes?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How do you build a golden eval set?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "What is prompt injection, and how do you defend against it?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How would you A/B test two prompts in production?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How do you keep a system prompt from drifting as the product grows?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "What is constrained decoding?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How do you handle non-determinism in evals?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "What is the difference between an offline eval and an online eval?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Design a ChatGPT-style assistant with multi-turn conversation",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Design semantic search over 10M product descriptions",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Design a customer support agent",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Design multi-tenant LLM serving",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How would you reduce cost on an LLM product 50%?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Your p95 latency is 4 seconds and target is 1 second. What do you change?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How do you handle rate limits from a third-party model API?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Design observability for an LLM product",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How do you cache LLM responses without breaking personalization?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How do you decide between an open-source model and a frontier API?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How to Prepare: A 3-Week Study Plan",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Does HireVue Detect AI Cheating? What Gets Flagged (2026)",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How to Ace an AI Company Interview (2026 Guide)",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "Ready to Pass Any SWE Interviews with 100% Undetectable AI?",
+  "role": "genai",
+  "url": "https://www.interviewcoder.co/blog/ai-engineer-interview-questions",
+  "title": "Top 50 AI Engineer Interview Questions and Answers (2026) | Interview Coder"
+ },
+ {
+  "q": "How to use these questions",
+  "role": "agentic",
+  "url": "https://www.krishnaik.in/ai-tutorials/agentic-ai-interview-questions",
+  "title": "Agentic AI Interview Questions tutorial for beginners"
+ },
+ {
+  "q": "Start: Q1. What is an AI agent, and how is it different from a chatbot or a single LLM call?",
+  "role": "agentic",
+  "url": "https://www.krishnaik.in/ai-tutorials/agentic-ai-interview-questions",
+  "title": "Agentic AI Interview Questions tutorial for beginners"
+ },
+ {
+  "q": "Design for failure. Provider outages, rate limits, prompt injection and silent drift. Mention fallbacks and monitoring without being asked.",
+  "role": "genai",
+  "url": "https://www.krishnaik.in/ai-tutorials/ai-system-design-interview-questions",
+  "title": "AI System Design Interview Questions tutorial for beginners"
+ },
+ {
+  "q": "Start: Q1. How should you structure your answer in an AI system design interview?",
+  "role": "genai",
+  "url": "https://www.krishnaik.in/ai-tutorials/ai-system-design-interview-questions",
+  "title": "AI System Design Interview Questions tutorial for beginners"
+ },
+ {
+  "q": "Start: Q1. What are evals, and why do LLM applications need them more than traditional software does?",
+  "role": "genai",
+  "url": "https://www.krishnaik.in/ai-tutorials/evals-guardrails-interview-questions",
+  "title": "Evals & Guardrails Interview Questions tutorial for beginners"
+ },
+ {
+  "q": "Start: Q1. What is LLMOps, and how does it differ from MLOps and DevOps?",
+  "role": "genai",
+  "url": "https://www.krishnaik.in/ai-tutorials/llmops-interview-questions",
+  "title": "LLMOps & Production Interview Questions tutorial for beginners"
+ },
+ {
+  "q": "Separate retrieval from generation. When an answer is wrong, first say how you'd find out which stage failed: was the right chunk retrieved, and was it used?",
+  "role": "genai",
+  "url": "https://www.krishnaik.in/ai-tutorials/rag-interview-questions",
+  "title": "RAG Interview Questions tutorial for beginners"
+ },
+ {
+  "q": "Start: Q1. What is RAG, and why do we need it?",
+  "role": "genai",
+  "url": "https://www.krishnaik.in/ai-tutorials/rag-interview-questions",
+  "title": "RAG Interview Questions tutorial for beginners"
+ },
+ {
+  "q": "Do the maths out loud. Memory for weights, KV cache per token, and training bytes per parameter come up constantly. Practise them until they're quick.",
+  "role": "genai",
+  "url": "https://www.krishnaik.in/ai-tutorials/llm-fundamentals-interview-questions",
+  "title": "LLM Fundamentals Interview Questions tutorial for beginners"
+ },
+ {
+  "q": "Do the maths out loud.",
+  "role": "genai",
+  "url": "https://www.krishnaik.in/ai-tutorials/llm-fundamentals-interview-questions",
+  "title": "LLM Fundamentals Interview Questions tutorial for beginners"
+ },
+ {
+  "q": "Start: Q1. What is a Large Language Model, and how does \"predicting the next token\" lead to useful behaviour?",
+  "role": "genai",
+  "url": "https://www.krishnaik.in/ai-tutorials/llm-fundamentals-interview-questions",
+  "title": "LLM Fundamentals Interview Questions tutorial for beginners"
  }
 ]

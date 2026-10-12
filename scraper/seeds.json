@@ -48,5 +48,12 @@
 {"url":"https://dataford.io/interview-guides/cgi/agentic-ai-engineer","role":"agentic"},
 {"url":"https://dataford.io/interview-guides/meta/agentic-ai-engineer","role":"agentic"},
 {"url":"https://dataford.io/interview-guides/accso/agentic-ai-engineer","role":"agentic"},
-{"url":"https://dataford.io/interview-guides/citi/agentic-ai-engineer","role":"agentic"}
+{"url":"https://dataford.io/interview-guides/citi/agentic-ai-engineer","role":"agentic"},
+{"url":"https://www.interviewcoder.co/blog/ai-engineer-interview-questions","role":"genai"},
+{"url":"https://www.krishnaik.in/ai-tutorials/agentic-ai-interview-questions","role":"agentic"},
+{"url":"https://www.krishnaik.in/ai-tutorials/ai-system-design-interview-questions","role":"genai"},
+{"url":"https://www.krishnaik.in/ai-tutorials/evals-guardrails-interview-questions","role":"genai"},
+{"url":"https://www.krishnaik.in/ai-tutorials/llmops-interview-questions","role":"genai"},
+{"url":"https://www.krishnaik.in/ai-tutorials/rag-interview-questions","role":"genai"},
+{"url":"https://www.krishnaik.in/ai-tutorials/llm-fundamentals-interview-questions","role":"genai"}
 ]
